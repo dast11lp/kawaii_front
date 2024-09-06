@@ -1,0 +1,12 @@
+.message {
+    padding: 5px 10px;
+    background-color: var(--color-tertiary);
+    max-width: 65%;
+    border-radius: var(--border-radius-secundary);
+}
+
+.message--other {
+    align-self: flex-end;
+    background-color: var(--color-tertiary);
+}
+

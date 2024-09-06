@@ -1,0 +1,12 @@
+.chat-list-box {
+    width: 100%;
+}
+.title {
+    margin: 15px 0;
+}
+
+.list-users {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

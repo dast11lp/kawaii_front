@@ -1,0 +1,24 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__info {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }

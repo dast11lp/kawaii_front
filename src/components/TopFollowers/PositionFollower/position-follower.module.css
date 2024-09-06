@@ -1,0 +1,21 @@
+.position {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-container {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.nick {
+    font-size: 12px;
+}

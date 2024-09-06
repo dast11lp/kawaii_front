@@ -1,0 +1,14 @@
+.search {
+    display: flex;
+    gap: 15px;
+}
+
+.search__input {
+    padding: 10px 25px;
+    border-radius: var(--border-radius-secundary);
+    outline: none;
+    border: var(--border-primary);
+    background-color: var(--color-primary-200);
+    color: var(--color-secundary);
+    width: 500px;
+}

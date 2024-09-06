@@ -1,0 +1,30 @@
+.flag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: var(--border-radius-secundary);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    height: 200px;
+    color: var(--color-primary);
+
+    padding:  15px 30px;
+}
+
+.flag__title {
+    font-size: var(--heading-primary);
+}
+
+.button__content {
+    display: flex;
+    gap: 15px;
+    font-size: var(--heading-primary);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    .flag {
+        color: var(--color-secundary);
+    }
+}
